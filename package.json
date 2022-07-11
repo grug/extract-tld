@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/module.js",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
   "homepage": "https://github.com/grug/extract-tld",
   "bugs": {
     "url": "https://github.com/grug/extract-tld/issues"
