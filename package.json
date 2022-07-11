@@ -1,10 +1,10 @@
 {
   "name": "extract-tld",
   "version": "1.0.2",
-  "source": "src/index.ts",
-  "main": "dist/main.js",
-  "module": "dist/module.js",
-  "types": "dist/index.d.ts",
+  "source": "./src/index.ts",
+  "main": "./dist/main.js",
+  "module": "./dist/module.js",
+  "types": "./dist/index.d.ts",
   "files": ["./dist"],
   "homepage": "https://github.com/grug/extract-tld",
   "bugs": {
