@@ -55,6 +55,12 @@ Ensure you have [pnpm](https://pnpm.io/) installed
 
 All contributions are welcome - feel free to open a PR or issue :)
 
+## List maintenance
+
+[There is a script](./scripts/updateTlds.ts) that will fetch the latest public suffix list and transform it into a format usable by this library. You can run the script by running `pnmpm updateList`.
+
+Ideally, this script would run once a day and update [tlds.json](./tlds.json) accordingly, but the work for that hasn't been done yet.
+
 ## Credits
 
 - [tld-extract](https://github.com/131/node-tld)
