@@ -1,8 +1,18 @@
 {
   "compilerOptions": {
-    "resolveJsonModule": true,
+    "target": "ES2019",
+    "moduleResolution": "node",
+    "module": "commonjs",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "declaration": true
-  }
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "declaration": true,
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./scripts/**/*.ts"],
+  "exclude": ["./src/**/*.test.*"],
 }
