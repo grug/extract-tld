@@ -57,5 +57,5 @@ All contributions are welcome - feel free to open a PR or issue :)
 
 ## Credits
 
-- [tld-extract]
+- [tld-extract](https://github.com/131/node-tld)
   - This is the main basis of inspiration for this library. I've basically taken this library and modernised it (and added some nice things like TypeScript support) as the author seems to be unreachable.
